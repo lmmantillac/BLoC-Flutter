@@ -53,7 +53,7 @@ class _Result{
     _poster_path= result['poster_path'];
     _original_languaje= result['original_languaje'];
     _original_title= result['original_title'];
-    for(int i = 0; i<result['original_title'].length; i++){
+    for(int i = 0; i<result['genre_ids'].length; i++){
       _genre_ids.add(result['genre_ids'][i]);
     }
     _backdrop_path= result['backdrop_path'];
